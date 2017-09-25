@@ -45,7 +45,6 @@ public class ColumnPanel extends JPanel {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
 
-        //if (model == null || !model.isGamePlaying()) {
         if (model == null) {
            displayHello(g);
         }
