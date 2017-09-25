@@ -108,6 +108,5 @@ public class ColumnPanel extends JPanel {
             g.drawRect(block.getX() * IColumns.CELLSIZE, block.getY() * IColumns.CELLSIZE + IColumns.CELLSIZE * i,
                     IColumns.CELLSIZE-1, IColumns.CELLSIZE-1);
         }
-
     }
 }
