@@ -27,10 +27,8 @@ public class ColumnPanel extends JPanel {
         g.setColor(Color.green);
         g.setFont(new Font("San-Serif", Font.BOLD, 20));
 
-
         g.drawString("To Start The Game", 20, 70);
         g.drawString("Press Space", 50, 100);
-
     }
 
     private void displayGameOver(Graphics g) {
@@ -43,8 +41,6 @@ public class ColumnPanel extends JPanel {
         displayHello(g);
     }
 
-
-
     @Override
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
@@ -55,9 +51,7 @@ public class ColumnPanel extends JPanel {
         }
 
         else {
-
           drawBoard(g, model.getGameBoard());
-
 
           if (model.isGameOver()) {
               displayGameOver(g);
